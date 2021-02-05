@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+	<!-- container -->
+        <div class="container">
+		<!-- Header -->
+            <header>
+                <div class="topHeader">
+                    <div id="topHeaderPosition" class="logo"><img src="img/icticon.png" alt="" /></div>
+                    <div id="topHeaderPosition" class="headMiddleLogo"><img src="img/ledp.apng" alt="" /></div>
+                    <div id="topHeaderPosition" class="headRightLogo"><img src="img/mujib100.png" alt="" /></div>
+                </div>
+                <nav class="mainNav">
+                    <ul class="mainMenu">
+                        <li class="mainNavPosition"><a href="#">Home</a></li>
+                        <li class="mainNavPosition"><a href="registration.html">Course Registration/Assesment</a></li>
+                        <li class="mainNavPosition"><a href="#">Course Module - 2020</a></li>
+                        <li class="mainNavPosition"><a href="#">Class Schedule</a></li>
+                        <li class="mainNavPosition"><a href="#">Sussess Story</a></li>
+                        <li class="mainNavPosition"><a href="#">Attendance</a></li>
+                        <li class="mainNavPosition"><a href="#">FAQ</a></li>
+                        <li class="mainNavPosition"><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+            </header><!-- Header -->
+			<!-- bodyWrapper -->
+            <div class="bodyWrapper">
+                <h3 class="formHeader">Student Registration Form</h3>
+                <div class="before_dash">
+                    <h4 class="infohead">Please enter relevent information</h4>
+                </div>
+				<!-- form -->
+                <form action="">
+				<!-- float-left -->
+                    <div class="float-left">
+                        <label for="">District ( <kbd> Institute District: Where you want to do your course</kbd>)*</label>
+                        <select class="form-control">
+                            <option value="">--Select One--</option>
+                            <option value="Panchagarh">Panchagarh</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Narayanganj">Narayanganj</option>
+                            <option value="Bogra">Bogra</option>
+                            <option value="Gazipur">Gazipur</option>
+                            <option value="Mymensing">Mymensing</option>
+                            <option value="Naogaon">Naogaon</option>
+                        </select>
+
+                        <label for="">Course*</label>
+                        <select class="form-control">
+                            <option value="">--Select One--</option>
+                            <option value="Web_Design">Web Design &amp; Development - 2020 (2020,February)</option>
+                            <option value="Graphic_Design">Graphic Design - 2020 (2020,February)</option>
+                            <option value="Digital_Marketing">Digital Marketing - 2020 (2020,February)</option>
+                        </select>
+
+                        <label for="">Student Name*</label>
+                        <input class="form-control" type="text" />
+
+                        <label for="">Father Name*</label>
+                        <input class="form-control" type="text" />
+
+                        <label for="">Mother Name*</label>
+                        <input class="form-control" type="text" />
+
+                        <label for="">Date of Birth*</label>
+                        <input class="form-control" type="date" />
+
+                        <label for="">Gender*</label>
+                        <input type="radio" value="male" name="Gender" />Male <input type="radio" value="female" name="Gender" />Felmale
+                        <br />
+                        <br />
+
+                        <label for="">Physically Handicapped* </label>
+                        <input type="radio" value="yes" name="Physically" />Yes <input type="radio" value="no" name="Physically" />No
+                        <br />
+                        <br />
+
+                        <label for="">Email* </label>
+                        <input class="form-control" id="form-control" type="email" />
+                        <span class="span">(e.g: example@mail.com)</span><br />
+
+                        <label for="">Phone (Must be 11 Digits)* </label>
+                        <input class="form-control" id="form-control" type="tel" />
+                        <span class="span">(e.g:0155123456)</span>
+                    </div><!-- float-left -->
+					<!-- float-right -->
+                    <div class="float-right">
+                        <label for="">Identification Type*</label>
+                        <select class="form-control">
+                            <option value="">Select One</option>
+                            <option value="birth_certificate">Birth Certificate No.</option>
+                            <option value="national_id">National ID</option>
+                        </select>
+
+                        <label for="">Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</label>
+                        <input class="form-control" type="text" />
+
+                        <label for="">Home District*</label>
+                        <select class="form-control">
+                            <option value="">--Select One--</option>
+                            <option value="Panchagarh">Panchagarh</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Narayanganj">Narayanganj</option>
+                            <option value="Bogra">Bogra</option>
+                            <option value="Gazipur">Gazipur</option>
+                            <option value="Mymensing">Mymensing</option>
+                            <option value="Naogaon">Naogaon</option>
+                        </select>
+
+                        <label for="">Upazila*</label>
+                        <select class="form-control" class="District">
+                            <option value="">--Select One--</option>
+                            <option value="Panchagarh">Panchagarh</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Narayanganj">Narayanganj</option>
+                            <option value="Bogra">Bogra</option>
+                            <option value="Gazipur">Gazipur</option>
+                            <option value="Mymensing">Mymensing</option>
+                            <option value="Naogaon">Naogaon</option>
+                        </select>
+
+                        <label for="">Village/House No./Road No./Other Alternative*</label>
+                        <input class="form-control" type="text" />
+
+                        <label for="">Post Office*</label>
+                        <input class="form-control" type="date" />
+
+                        <label for="">Educational Qualification* (Higher Level)</label>
+                        <select class="form-control">
+                            <option value="">--Select One--</option>
+                            <option value="higher secondary">Higher Secondary/Equivalent</option>
+                            <option value="bachelor">Bachelor</option>
+                            <option value="master">Master</option>
+                            <option value="phd">Phd</option>
+                        </select>
+
+                        <label for="">Have any computer?*</label>
+                        <input type="radio" value="yes" name="computer" />Yes <input type="radio" value="no" name="computer" />No
+
+                        <br />
+                        <br />
+                        <label for="">Photograph* </label>
+                        <input type="file" /><br />
+                        <span>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</span>
+
+                        <br />
+                        <br />
+
+                        <label for="">Signature* </label>
+                        <input type="file" /><br />
+                        <span>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</span>
+                        <br />
+                        <br />
+						<label for="">Personal Info* </label>
+							<textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>
+                        <input class="form-submit" type="submit" value="SUBMIT" />
+                    </div><!-- float-right -->
+                </form><!-- form -->
+				
+				
+				 <h3 class="formHeader">Authentication</h3>
+                <br />
+                <br />
+
+                <!-- float-left -->
+                <div class="float-left" style="padding-top: 0px !important;">
+                    <div class="before_dash">
+                        <h4 class="loginhead">Please enter your credential to login</h4>
+                    </div>
+                    <form action="">
+                        <label for="">User Email</label>
+                        <input type="email" class="form-control" />
+                        <label for="">User Password</label>
+                        <input type="password" class="form-control" />
+                        <input class="form-submit" type="submit" value="LOGIN" />
+                    </form>
+                </div>
+                <!-- float-left -->
+                <!-- float-right -->
+                <div class="float-right" style="padding-top: 0px !important;">
+                    <div class="before_dash">
+                        <h4 class="Forgothead">Forgot your password?</h4>
+                    </div>
+                    <form action="">
+                        <label for="">User Email</label>
+                        <input type="email" class="form-control" />
+                        <input class="form-submit" type="submit" value="Sent Query" />
+                    </form>
+                </div>
+                <!-- float-right -->
+                <div class="notice">
+                    <h6>Notice to All Users (Authorized or Unauthorized).</h6>
+                    <p>
+                        This computer system is for authorized use only. Users have no explicit or implicit expectation of privacy. Any or all uses of this system and all data on this system may be intercepted, monitored, recorded, copied,
+                        audited, inspected, and disclosed to authorized sites and law enforcement personnel, as well as authorized officials of other agencies. By using this system, the user consent to such disclosure at the discretion of
+                        authorized site personnel. Unauthorized or improper use of this system may result in administrative disciplinary action, civil and criminal penalties. By continuing to use this system you indicate your awareness of
+                        and consent to these terms and conditions of use. STOP IMMEDIATELY!!! if you do not agree to the conditions stated in this warning.
+                    </p>
+                </div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				 <h3 style="margin-top:10px;    margin-bottom: 10px;" class="formHeader">Course Material</h3>
+           
+				
+				<table cellpadding="0" cellspacing="0px" >
+				<thead>
+				<tr>
+					<th>Course Name</th>
+					<th>Material Title</th>
+					<th>Material Description</th>
+					<th>Attachment</th>
+					<th>Created Date</th>
+					<th>Action</th>
+				</tr>
+				</thead>
+				<tbody>
+				
+				<tr>
+					<td>Digital Marketing - 2020</td>
+					<td>Digital Marketing - Course Module</td>
+					<td><a class="attachment" href="#">Find attachment for ...</a></td>
+					<td><a class="pdf" href="#">1.-digital-marketing.pdf </a></td>
+					<td>2016-12-20</td>
+					<td><a class="Details" href="#">Details</a></td>
+				</tr>
+				
+								
+				<tr>
+					<td>Graphic Design - 2020</td>
+					<td>Graphics Design - Course Module</td>
+					<td><a class="attachment" href="#">Find attachment for ...</a></td>
+					<td><a class="pdf" href="#">ledp-module-graphic-design-.pdf </a></td>
+					<td>2016-12-20</td>
+					<td><a class="Details" href="#">Details</a></td>
+				</tr>
+				
+								
+				<tr>
+					<td>Web Design & Development - 2020</td>
+					<td>Web Design & Development - Course Module</td>
+					<td><a class="attachment" href="#">Find attachment for ...</a></td>
+					<td><a class="pdf" href="#">13.pdf  </a></td>
+					<td>2016-12-20</td>
+					<td><a class="Details" href="#">Details</a></td>
+				</tr>
+				
+				
+				</tbody>
+				</table>
+				
+				
+				 <h3 style="margin-top:10px;    margin-bottom: 10px;" class="formHeader">Personal Information</h3>
+				
+				<details>
+				<summary>Freelancer Nishad</summary>
+				<pre>Dear ,
+I am Freelancer Nishad.I read your details.And I know I am expert for this project . 
+see my portfolio in https://www.behance.net/freelancernishad;
+I create two website :
+https://tmscedu.com
+https://fxproinvestor.com
+
+i work over 3 years, I have been working as a senior Web Developer and Web Designer.
+
+
+Currently i am trying to build my career with this website. I have good experience in the following areas:
+
+Web Development
+===============
+HTML
+CSS
+PHP
+JAVASCRIPT
+JQUERY
+MYSQL
+AJAX
+WORDPRESS etc.
+
+
+I Can work on under pressure. if you are interested me. Kindly Hire me. Thank You.
+</pre>
+				</details>
+				
+				
+				
+				
+				
+				
+				
+            </div><!-- bodyWrapper -->
+			
+			
+					
+		<div class="useTag">
+		 <h3 style="margin-top:10px;    margin-bottom: 10px;" class="formHeader">Tag Use For This Page</h3>
+		
+		<table width="100%" cellpadding="0" cellspacing="0px" >
+		<caption>Tag Use For This Page</caption>
+				<thead>
+				<tr>
+					<th colspan="4" >Tag list</th>
+				
+			
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+					<td>1</td>
+					<td>html</td>
+					<td>23</td>
+					<td>input</td>
+		
+			
+				</tr>
+				
+								
+				<tr>
+					<td>2</td>
+					<td>head</td>
+					<td>24</td>
+					<td>label</td>
+				
+				
+				</tr>
+				
+				<tr>
+					<td>3</td>
+					<td>meta</td>
+					<td>25</td>
+					<td>select</td>
+				</tr>
+							
+				<tr>
+					<td>4</td>
+					<td>title</td>
+					<td>26</td>
+					<td>option</td>
+				</tr>
+							
+				<tr>
+					<td>5</td>
+					<td>link</td>
+					<td>27</td>
+					<td>textarea</td>
+				</tr>
+							
+				<tr>
+					<td>6</td>
+					<td>body</td>
+					<td>28</td>
+					<td>kbd</td>
+				</tr>
+							
+				<tr>
+					<td>7</td>
+					<td>h1 to h6</td>
+					<td>29</td>
+					<td>address</td>
+				</tr>
+							
+				<tr>
+					<td>8</td>
+					<td>p</td>
+					<td>30</td>
+					<td>audio</td>
+				</tr>
+							
+				<tr>
+					<td>9</td>
+					<td>a</td>
+					<td>31</td>
+					<td>video</td>
+				</tr>
+							
+				<tr>
+					<td>10</td>
+					<td>button</td>
+					<td>32</td>
+					<td>table</td>
+				</tr>
+							
+				<tr>
+					<td>11</td>
+					<td>br</td>
+					<td>33</td>
+					<td>tr</td>
+				</tr>
+							
+				<tr>
+					<td>12</td>
+					<td>img</td>
+					<td>34</td>
+					<td>th</td>
+				</tr>
+							
+				<tr>
+					<td>13</td>
+					<td>ol</td>
+					<td>35</td>
+					<td>td</td>
+				</tr>
+							
+				<tr>
+					<td>14</td>
+					<td>li</td>
+					<td>36</td>
+					<td>thead</td>
+				</tr>
+							
+				<tr>
+					<td>15</td>
+					<td>details</td>
+					<td>37</td>
+					<td>tbody</td>
+				</tr>
+							
+				<tr>
+					<td>16</td>
+					<td>summary</td>
+					<td>38</td>
+					<td>tfoot</td>
+				</tr>
+							
+				<tr>
+					<td>17</td>
+					<td>header</td>
+					<td>39</td>
+					<td>footer</td>
+				</tr>
+							
+				<tr>
+					<td>18</td>
+					<td>footer</td>
+					<td>40</td>
+					<td>section</td>
+				</tr>
+							
+				<tr>
+					<td>19</td>
+					<td>form</td>
+					<td>41</td>
+					<td>div</td>
+				</tr>
+							
+				<tr>
+					<td>20</td>
+					<td>span</td>
+					<td>42</td>
+					<td>center</td>
+				</tr>			
+				<tr>
+					<td>21</td>
+					<td>q</td>
+					<td>43</td>
+					<td>blockquote</td>
+				</tr>
+							
+				
+				<tr>
+					<td>22</td>
+					<td>caption</td>
+					<td>44</td>
+					<td>iframe</td>
+				</tr>
+							
+				
+				
+				
+				</tbody>
+				</table>
+		
+		</div>
+		 <h3 style="margin-top:10px;    margin-bottom: 10px;" class="formHeader">Video</h3>
+			<div class="video">
+			<video controls width="49%" height="315" src="10000000_711474776219203_8529436904678087134_n.mp4"></video>
+			<iframe width="49%" style="    float: right;" height="315" src="https://www.youtube.com/embed/WFF0zS5ZAxw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+        </div><!-- container -->
+		
+
+		
+		
+		
+		
+		
+		
+		<footer>
+		<center>
+		<div class="fotterLogo"><img src="img/icticon.png" alt="" /></div>
+		
+		
+		<pre> <q>Professional Outsourcing Course
+Learning & Earning Development Project</q></pre>
+<address>
+<pre><blockquote>Tepriganj,Debiganj
+Panchagarh</blockquote>
+</pre>
+</address>
+
+		<audio controls src="bd_national_anthem.mp3"></audio>
+		<div class="copyright"><p>©2021 All Rights Reserved</p></div>
+		</center>
+		
+		
+		
+		
+		</footer>
+		
+		
+		
+		
+		
+    </body>
+</html>
