@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+	<!-- container -->
+        <div class="container">
+		<!-- Header -->
+            <header>
+                <div class="topHeader">
+                    <div id="topHeaderPosition" class="logo"><img src="img/icticon.png" alt="" /></div>
+                    <div id="topHeaderPosition" class="headMiddleLogo"><img src="img/ledp.apng" alt="" /></div>
+                    <div id="topHeaderPosition" class="headRightLogo"><img src="img/mujib100.png" alt="" /></div>
+                </div>
+                <nav class="mainNav">
+                    <ul class="mainMenu">
+                        <li class="mainNavPosition"><a href="#">Home</a></li>
+                        <li class="mainNavPosition" id="active"><a href="#">Course Registration/Assesment</a></li>
+                        <li class="mainNavPosition"><a href="#">Course Module - 2020</a></li>
+                        <li class="mainNavPosition"><a href="#">Class Schedule</a></li>
+                        <li class="mainNavPosition"><a href="#">Sussess Story</a></li>
+                        <li class="mainNavPosition"><a href="#">Attendance</a></li>
+                        <li class="mainNavPosition"><a href="#">FAQ</a></li>
+                        <li class="mainNavPosition"><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+            </header><!-- Header -->
+			<!-- bodyWrapper -->
+            <div class="bodyWrapper">
+                <h3 class="formHeader">Student Registration Form</h3>
+                <div class="before_dash">
+                    <h4 class="infohead">Please enter relevent information</h4>
+                </div>
+				<!-- form -->
+                <form action="">
+				<!-- float-left -->
+                    <div class="float-left">
+                        <label for="">District (Institute District: Where you want to do your course)*</label>
+                        <select class="form-control">
+                            <option value="">--Select One--</option>
+                            <option value="Panchagarh">Panchagarh</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Narayanganj">Narayanganj</option>
+                            <option value="Bogra">Bogra</option>
+                            <option value="Gazipur">Gazipur</option>
+                            <option value="Mymensing">Mymensing</option>
+                            <option value="Naogaon">Naogaon</option>
+                        </select>
+
+                        <label for="">Course*</label>
+                        <select class="form-control">
+                            <option value="">--Select One--</option>
+                            <option value="Web_Design">Web Design &amp; Development - 2020 (2020,February)</option>
+                            <option value="Graphic_Design">Graphic Design - 2020 (2020,February)</option>
+                            <option value="Digital_Marketing">Digital Marketing - 2020 (2020,February)</option>
+                        </select>
+
+                        <label for="">Student Name*</label>
+                        <input class="form-control" type="text" />
+
+                        <label for="">Father Name*</label>
+                        <input class="form-control" type="text" />
+
+                        <label for="">Mother Name*</label>
+                        <input class="form-control" type="text" />
+
+                        <label for="">Date of Birth*</label>
+                        <input class="form-control" type="date" />
+
+                        <label for="">Gender*</label>
+                        <input type="radio" value="male" name="Gender" />Male <input type="radio" value="female" name="Gender" />Felmale
+                        <br />
+                        <br />
+
+                        <label for="">Physically Handicapped* </label>
+                        <input type="radio" value="yes" name="Physically" />Yes <input type="radio" value="no" name="Physically" />No
+                        <br />
+                        <br />
+
+                        <label for="">Email* </label>
+                        <input class="form-control" id="form-control" type="email" />
+                        <span class="span">(e.g: example@mail.com)</span><br />
+
+                        <label for="">Phone (Must be 11 Digits)* </label>
+                        <input class="form-control" id="form-control" type="tel" />
+                        <span class="span">(e.g:0155123456)</span>
+                    </div><!-- float-left -->
+					<!-- float-right -->
+                    <div class="float-right">
+                        <label for="">Identification Type*</label>
+                        <select class="form-control">
+                            <option value="">Select One</option>
+                            <option value="birth_certificate">Birth Certificate No.</option>
+                            <option value="national_id">National ID</option>
+                        </select>
+
+                        <label for="">Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</label>
+                        <input class="form-control" type="text" />
+
+                        <label for="">Home District*</label>
+                        <select class="form-control">
+                            <option value="">--Select One--</option>
+                            <option value="Panchagarh">Panchagarh</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Narayanganj">Narayanganj</option>
+                            <option value="Bogra">Bogra</option>
+                            <option value="Gazipur">Gazipur</option>
+                            <option value="Mymensing">Mymensing</option>
+                            <option value="Naogaon">Naogaon</option>
+                        </select>
+
+                        <label for="">Upazila*</label>
+                        <select class="form-control" class="District">
+                            <option value="">--Select One--</option>
+                            <option value="Panchagarh">Panchagarh</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Narayanganj">Narayanganj</option>
+                            <option value="Bogra">Bogra</option>
+                            <option value="Gazipur">Gazipur</option>
+                            <option value="Mymensing">Mymensing</option>
+                            <option value="Naogaon">Naogaon</option>
+                        </select>
+
+                        <label for="">Village/House No./Road No./Other Alternative*</label>
+                        <input class="form-control" type="text" />
+
+                        <label for="">Post Office*</label>
+                        <input class="form-control" type="date" />
+
+                        <label for="">Educational Qualification* (Higher Level)</label>
+                        <select class="form-control">
+                            <option value="">--Select One--</option>
+                            <option value="higher secondary">Higher Secondary/Equivalent</option>
+                            <option value="bachelor">Bachelor</option>
+                            <option value="master">Master</option>
+                            <option value="phd">Phd</option>
+                        </select>
+
+                        <label for="">Have any computer?*</label>
+                        <input type="radio" value="yes" name="computer" />Yes <input type="radio" value="no" name="computer" />No
+
+                        <br />
+                        <br />
+                        <label for="">Photograph* </label>
+                        <input type="file" /><br />
+                        <span>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</span>
+
+                        <br />
+                        <br />
+
+                        <label for="">Signature* </label>
+                        <input type="file" /><br />
+                        <span>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</span>
+                        <br />
+                        <br />
+
+                        <input class="form-submit" type="submit" value="SUBMIT" />
+                    </div><!-- float-right -->
+                </form><!-- form -->
+            </div><!-- bodyWrapper -->
+        </div><!-- container -->
+    </body>
+</html>
